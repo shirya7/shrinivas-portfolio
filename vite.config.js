@@ -1,10 +1,5 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react-swc'
-
-// https://vite.dev/config/
+import { defineConfig } from 'vite';
 
 export default defineConfig({
-  build: {
-    outDir: 'build', // Ensure this is set to 'build' or the desired output directory
-  },
+  base: '/shrinivas-portfolio/',  // Adjust this to the name of your repo
 });
